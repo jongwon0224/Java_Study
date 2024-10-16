@@ -37,9 +37,10 @@ public class variable04 {
 		//String 변수명 = 타입 + ""; 하면 다 문자열로 변환되는 듯..
 	
 		System.out.println(s10);
-		System.out.println(s11);
-		System.out.println(s12);
-		System.out.println(s13);
+//		System.out.println(s10);
+
+
+
 	}
 
 }

@@ -60,7 +60,7 @@ public class Hello {
 //		문자열 변수 지정시 => String var 로 ..int는 정수만
 		String name = "hwang";
 		String name2 = "jongwon";
-		System.out.println(name+name2);
+		System.out.println(name+name2); //
 		
 	}
 

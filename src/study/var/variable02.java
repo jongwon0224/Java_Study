@@ -15,7 +15,7 @@ public class variable02 {
 //		
 //		for(~) {
 //			int var3;	//var1 사용가능 , var2은 사용불가
-//		}
+//		} //
 
 		int num2 = 0b10; //2진수
 		int num8 = 012; //8진수

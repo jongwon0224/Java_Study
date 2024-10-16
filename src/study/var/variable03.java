@@ -10,7 +10,7 @@ public class variable03 {
 		
 //		int i2 = d1; 정수형 변수에 실수형 값 대입 못함 ..int는 정수 double은 실수
 //		(int)d1 == double을 정수 int로 변환해줌 -> 정수로 변환되어서 소숫점은 절삭
-		
+//
 		int i2 = (int)d1;
 		
 		System.out.println(i2);
