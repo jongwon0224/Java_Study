@@ -35,9 +35,11 @@ public class quiz02 {
 		System.out.println("총점 : " + totalScore);
 		
 
-		double num1 = 4;
-		double num2 = 10;
-		double num3 = num1 / num2;
+		int num1 = 4;
+		int num2 = 10;
+		double num3 = (double)num1 / num2;
+//		double num3 = num1 / (double)num2;
+//		double num3 = (double)num1 / (double)num2;
 		System.out.println(num3);
 		
 		
