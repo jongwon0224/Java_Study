@@ -7,9 +7,9 @@ public class condition02 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
-		int dice = 5;
 		/*
+		int dice = 5;
+		
 		if(dice == 1) {
 			System.out.println("한칸 전진");
 		} 
@@ -26,9 +26,10 @@ public class condition02 {
 		} else if(dice == 3) {
 		} else {
 		}
+		
 		*/
 		
-			
+		/*
 		//switch 문
 //			
 //		Scanner scanner = new Scanner(System.in);
@@ -128,7 +129,11 @@ public class condition02 {
 			//늦게 //조금
 		}
 		
-	
+		*/
+		
+
+
+		
 		
 	}
 	
