@@ -30,7 +30,12 @@ public class quiz09 {
 			System.out.println("잘못된 입력입니다.");
 		}
 
+		Str num = "d";
+		Str num1 = "dd";
 		
+		if(num == num1) {
+			System.out.println("c");
+		}
 //		if( (birth < 2000 && (idNum ==1 || idNum ==2) ) ||	(birth >= 2000 && (idNum ==3 || idNum == 4))) {
 //				if(idNum == 1 || idNum == 3) {
 //					System.out.println("남자");
