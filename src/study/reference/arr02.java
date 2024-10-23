@@ -17,7 +17,7 @@ public class arr02 {
 		 2ㅁ ㅁ ㅁ ㅁ ㅁ 
 		  
 		 */
-		
+		/*
 		int [][] nArr3 = { {1,2,3},{4,5,6} };
 //		System.out.println(nArr3[2][1]); // 2오류 -> {1,2,3},{4,5,6} -> [0][1]로 계산
 		
@@ -29,7 +29,9 @@ public class arr02 {
 			}
 			System.out.println();
 		}
+		*/
 		
+
 		
 	}
 
