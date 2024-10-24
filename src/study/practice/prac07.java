@@ -12,14 +12,14 @@ public class prac07 {
 //		***
 //		**
 //		*
-		/*
-		for(int i=0; i<5; i++) {
-			for(int j=4; j>=i; j--) { // i ->   0       1       2     3    4
-				System.out.print("*");// j -> 43210    4321    432    43   4
+		
+		for(int i=1; i<=5; i++) {
+			for(int j=5; j>=i; j--) { // i ->   1       2       3     4    5
+				System.out.print("*");// j -> 54321    5432    543    54   5
 			}
 			System.out.println();
 		}
-		*/
+		
 		
 //		2. 중첩반복문을 활용하여 아래와 같이 결과가 나타나도록 출력코드를 작성해주세요.
 //		*
@@ -133,10 +133,19 @@ public class prac07 {
 		*/
 		
 		
+		int i;
+		int total = 0;
 		
+		for(i=1; total<100; i++) {
 		
+			if(i % 2 == 0) {
+				total -= i;
+			} else {
+				total += i;
+			}
 		
-		
+		}
+		System.out.println("누적합 : " + total + " 마지막 숫자 : " + (i-1));
 		
 	}
 

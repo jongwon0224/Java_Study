@@ -62,6 +62,7 @@ public class prac06 {
 		}
 		
 //		System.out.println(Arrays.toString(gameArr)); 자바 배열 확인하는 방법
+
 		
 		if(total == 1) {
 			System.out.println("도");
