@@ -132,8 +132,8 @@ public class prac07 {
 		System.out.println("더한 숫자 총합 : " + total);
 		*/
 		
-		
-		int i;
+		/*
+		int i; // 변수 선언만 하기 -> 그래야 for문에서 사용가능.
 		int total = 0;
 		
 		for(i=1; total<100; i++) {
@@ -146,7 +146,7 @@ public class prac07 {
 		
 		}
 		System.out.println("누적합 : " + total + " 마지막 숫자 : " + (i-1));
-		
+		*/
 	}
 
 }
