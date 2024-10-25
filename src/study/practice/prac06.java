@@ -3,7 +3,7 @@ package study.practice;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class prac06 {
+public class Prac06 {
 
 	public static void main(String[] args) {
 		

@@ -2,7 +2,7 @@ package study.oper;
 
 import java.util.Scanner;
 
-public class operator01 {
+public class Operator01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

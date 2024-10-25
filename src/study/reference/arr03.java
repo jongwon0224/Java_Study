@@ -1,6 +1,6 @@
 package study.reference;
 
-public class arr03 {
+public class Arr03 {
 
 	public static void main(String[] args) {
 		

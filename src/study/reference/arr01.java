@@ -1,6 +1,6 @@
 package study.reference;
 
-public class arr01 {
+public class Arr01 {
 
 	public static void main(String[] args) {
 		//배열

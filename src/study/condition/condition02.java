@@ -2,7 +2,7 @@ package study.condition;
 
 import java.util.Scanner;
 
-public class condition02 {
+public class Condition02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

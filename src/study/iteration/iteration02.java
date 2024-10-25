@@ -1,6 +1,6 @@
 package study.iteration;
 
-public class iteration02 {
+public class Iteration02 {
 
 	public static void main(String[] args) {
 		// 타입 뭔지 확인

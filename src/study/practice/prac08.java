@@ -2,12 +2,13 @@ package study.practice;
 
 import java.util.Scanner;
 
-public class prac08 {
+public class Prac08 {
 
 	public static void main(String[] args) {
 		
 
 		Scanner scanner = new Scanner(System.in);
+		/*
 		String [] menuArr = {"입력","수정","조회","삭제","종료"};
 
 		while(true) {	
@@ -27,6 +28,7 @@ public class prac08 {
 				System.out.println("잘못 입력했습니다.");
 			}
 		}
+		*/
 		
 		
 		

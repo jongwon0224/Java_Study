@@ -2,7 +2,7 @@ package study.var;
 
 import java.util.Scanner; //scanner 패키지 불러옴 -> 해당 데이터 입력 필요
 
-public class variable05 {
+public class Variable05 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

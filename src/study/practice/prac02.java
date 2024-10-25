@@ -1,6 +1,6 @@
 package study.practice;
 
-public class prac02 {
+public class Prac02 {
 
 	public static void main(String[] args) {
 		

@@ -1,6 +1,6 @@
 package study.reference;
 
-public enum menu {
+public enum Menu {
 	JJA,
 	JMP,
 	TSU

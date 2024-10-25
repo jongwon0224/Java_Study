@@ -2,7 +2,7 @@ package study.iteration;
 
 import java.util.concurrent.atomic.AtomicIntegerArray;
 
-public class iteration01 {
+public class Iteration01 {
 
 	public static void main(String[] args) {	
 		// for문을 활용한 10단위로 더하기 방법 1.

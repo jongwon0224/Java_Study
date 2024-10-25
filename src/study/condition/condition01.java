@@ -1,6 +1,6 @@
 package study.condition;
 
-public class condition01 {
+public class Condition01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

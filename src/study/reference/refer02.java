@@ -2,7 +2,7 @@ package study.reference;
 
 import java.util.Arrays;
 
-public class refer02 {
+public class Refer02 {
 
 	public static void main(String[] args) {
 		/*

@@ -2,7 +2,7 @@ package study.reference;
 
 import java.util.Scanner;
 
-public class refer01 {
+public class Refer01 {
 
 	public static void main(String[] args) {
 		//참조

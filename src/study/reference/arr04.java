@@ -2,7 +2,7 @@ package study.reference;
 
 import java.util.Arrays;
 
-public class arr04 {
+public class Arr04 {
 
 	public static void main(String[] args) {
 		

@@ -1,6 +1,6 @@
 package study.iteration;
 
-public class iteration03 {
+public class Iteration03 {
 
 	public static void main(String[] args) {
 		

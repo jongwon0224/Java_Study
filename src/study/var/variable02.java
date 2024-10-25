@@ -1,6 +1,6 @@
 package study.var;
 
-public class variable02 {
+public class Variable02 {
 
 	public static void main(String[] args) {
 		// 지역변수 => 자바는 중괄호 {}로 지역 구분.

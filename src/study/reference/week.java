@@ -1,6 +1,6 @@
 package study.reference;
 
-public enum week {
+public enum Week {
 	MON,
 	TUE,
 	WED,

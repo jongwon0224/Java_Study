@@ -1,6 +1,6 @@
 package study.var;
 
-public class variable04 {
+public class Variable04 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
