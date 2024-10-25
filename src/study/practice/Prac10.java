@@ -1,5 +1,6 @@
 package study.practice;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Prac10 {
@@ -135,6 +136,7 @@ public class Prac10 {
 		String[] menuArr = {"아메리카노", "카페라떼", "바닐라라떼"}; //메뉴이름
 		int[] priceArr = {3500, 4100, 4300}; //메뉴가격
 		int[] countArr = new int [menuArr.length]; // 주문 수량
+		System.out.println(Arrays.toString(countArr));
 		
 		
 		while(true) {
@@ -142,7 +144,7 @@ public class Prac10 {
 			while(true) {
 				
 				System.out.println("============메뉴==========");
-				for(int i=0; i<menuArr.length; i++) {
+				for(int i=0; i<menuArr.length; i++) { // 0,1,2
 					System.out.printf("%d.%-8s %6d원\n", i+1, menuArr[i], priceArr[i]);
 				}
 				System.out.println("=========================");
@@ -161,6 +163,12 @@ public class Prac10 {
 			count = scanner.nextInt(); // 몇개
 			
 			countArr[menu-1] += count; // 수량 증가 시키기
+//			countArr[0] = countArr[0] + 2; => [2,0,0]
+//			countArr[1] = countArr[1] + 2; => [2,2,0]
+//			countArr[2] = countArr[2] + 2; => [2,2,2]
+//			countArr[0] = countArr[0] + 5; => [7,2,2]
+			System.out.println(Arrays.toString(countArr));
+			
 			scanner.nextLine();
 			//추가주문 여부
 			while(true) {
@@ -178,10 +186,15 @@ public class Prac10 {
 				
 				int total = 0;
 				System.out.println("=========================");
-				for(int i=0; i<menuArr.length; i++) {
-					
-					if(countArr[i] > 0) {
-						System.out.printf("%s %d잔 : %d원\n", menuArr[i], countArr[i], countArr[i]*priceArr[i]);							
+				for(int i=0; i<menuArr.length; i++) { // 0,1,2
+//					countArr = [7,2,2]
+//					7>0, 2>0, 2>0					
+					if(countArr[i] > 0) { 
+						System.out.printf("%s %d잔 : %d원\n",
+								menuArr[i], countArr[i], countArr[i]*priceArr[i]);		
+						//menuArr: 1번 countArr:7잔, 7*1번가격 얼마
+						//menuArr: 2번 countArr:2잔, 2*2번가격 얼마
+						//menuArr: 3번 countArr:2잔, 2*3번가격 얼마
 						total += countArr[i]*priceArr[i];
 					}
 				}
@@ -189,7 +202,7 @@ public class Prac10 {
 				System.out.println("총액 : " + total + "원");
 				break;
 			}
-				
+		}
 			
 			
 			
@@ -233,7 +246,7 @@ public class Prac10 {
 			} else { //메뉴 보여주고, 메뉴입력 다시 받기
 				System.out.println("잘못입력하셨습니다. 다시 입력하세요.");
 			}\*/
-		} 
+		//} 
 	
 				
 	
