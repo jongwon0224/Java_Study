@@ -1,8 +1,8 @@
 package study.inherit.inherit01;
 
-public class Parent {
+public class Parent extends GrandParent {
 
-	int money;
+	protected int money;
 	
 //	public Parent() {
 //		
