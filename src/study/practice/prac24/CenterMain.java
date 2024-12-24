@@ -7,8 +7,7 @@ public class CenterMain {
 	public static void main(String[] args) {
 		
 		Center center = new Center();
-		center.employeeList = new ArrayList<>();
-		center.roomList = new ArrayList<>();
+		
 				
 //		Employee e1 = new Employee("justine", "강사", 1, 35, 10, 5000);
 		Employee e2 = new Employee("helena", "조교", 2, 28, 5, 3000);

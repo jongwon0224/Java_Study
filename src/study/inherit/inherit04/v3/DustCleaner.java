@@ -7,4 +7,9 @@ public class DustCleaner extends Cleaner {
 		System.out.println("먼지털이");
 //		super.doClean(); // 부모 메소드 부름
 	}
+	
+	 public void arrangeItem () {
+		 System.out.println("준비중입니다");
+	 }
+	 
 }

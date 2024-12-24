@@ -26,13 +26,12 @@ public class Room {
     }
 	
 	public boolean isDoorOpen() {
-        return isDoorOpen;
+        return isDoorOpen = true;
     }
 	
 	// 메서드
 	public void doorOpen () {
-		isDoorOpen = true;
-		System.out.printf("%s강의실 문이 열렸습니다.\n", name);
+		if(isDoorOpen) System.out.printf("%s강의실 문이 열렸습니다.\n", name);
 	}
 	
 	

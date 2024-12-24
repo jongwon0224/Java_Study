@@ -1,11 +1,12 @@
 package study.practice.prac24;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Center {
 
-	List <Employee> employeeList;
-	List <Room> roomList;
+	List <Employee> employeeList = new ArrayList <Employee>();
+	List <Room> roomList = new ArrayList <Room>();
 	
 	
 	// 직원 추가 메소드

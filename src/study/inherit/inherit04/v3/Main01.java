@@ -38,7 +38,18 @@ public class Main01 {
 		
 		for(Cleaner c : List) {
 			c.doClean();
+			
+			if (c instanceof DustCleaner ) {
+				DustClenaer d = (DustCleaner)c;
+				d.arrangeItem();
+			}
 		}
+		
+		Cleaner cc4 = new DustCleaner();
+		cc4.doClean();
+		DustCleaner d1 = (DustCleaner)c1;
+		d1.doClean();
+		d1.arrangeItem();
 		
 		
 		/*

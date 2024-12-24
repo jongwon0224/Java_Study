@@ -21,6 +21,25 @@ public class ExMain {
 		Vehicle v = new Taxi();
 		Vehicle v2 = takeBus();
 		Vehicle b3 = takeBus2();
+	
+		//----------------------------
+		Taxi d5 = new Taxi();
+		Vehicle v5 = d5;
+		v5.run();
+		// d5객체를 v5로 형변환 해도 d5에서는 Taxi클래스 내부 메소드 실행가능
+		d5.businessOn();
+		d5.run();
+		
+		// 클래스도 형변환 됨 Vehicle v5 => (Taxi)v5로 가능
+		Taxi t6 = (Taxi)v5;
+		t6.businessOn();
+		
+		Vehicle v6 = new Vehicle();
+		// 형변환 오류 -> 자식이 부모로 바꾸려하면 오류나는듯..
+		// 그럴때 instanceof를 사용해서 해결
+		if(v6 instanceof Taxi) {			
+			Taxi t7 = (Taxi)v6;
+		}
 		
 	}
 		
