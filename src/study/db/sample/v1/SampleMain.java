@@ -1,4 +1,4 @@
-package study.db.sample;
+package study.db.sample.v1;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

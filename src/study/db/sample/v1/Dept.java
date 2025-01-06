@@ -1,4 +1,4 @@
-package study.db.sample;
+package study.db.sample.v1;
 
 			// DTO 객체 (Data Transfer Object
 public class Dept { // DeptDTO
