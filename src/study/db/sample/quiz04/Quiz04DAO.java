@@ -1,4 +1,4 @@
-package study.db.sample.v2;
+package study.db.sample.quiz04;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,13 +7,14 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-//Data Access Object
-public class DeptDAO {
-	
+import study.db.sample.v2.DBConnectionManager;
+import study.db.sample.v2.Dept;
+
+public class Quiz04DAO {
+
 	Connection conn;
 	PreparedStatement psmt;
 	ResultSet rs;
-	
 	
 	
 	public List<Dept> findDeptList() {
@@ -41,37 +42,7 @@ public class DeptDAO {
 		}			
 		
 		return deptList;
-	}
-	
-	// db동적으로 관리하는 방법!
-	// DTO객체 받는 메소드
-	public Dept findDeptbyDeptno(int deptno) {
-				
-		conn = DBConnectionManager.connectDB();	
-		
-		Dept dept = new Dept(); // 객체생성
-		String sqlQuery = "select * from dept where deptno = ? "; // 매개변수 받기
-		
-		try {
-			psmt = conn.prepareStatement(sqlQuery);
-			psmt.setInt(1, deptno);
-			rs = psmt.executeQuery();
-			
-			if(rs.next()) {					
-				// DTO객체에 저장
-				dept.setDeptno(rs.getInt("deptno"));
-				dept.setDname(rs.getString("dname"));
-				dept.setLoc(rs.getString("loc"));
-			}	
-		} catch (SQLException e) {
-			e.printStackTrace();
-		} finally { // finally 사용해서 밑에까지 처리함				
-			DBConnectionManager.disconnectDB(conn, psmt, rs);
-		}
-		return dept;
-	}
-	
-	
+	}	
 	
 	// update하는법
 	public int modifyDept(Dept dept) {
@@ -101,8 +72,6 @@ public class DeptDAO {
 		}
 		return result;
 	}
-	
-	
 	
 	//insert update delete db상 -> 실행 후 적용된 행의 갯수
 //	public int saveDept(int deptno, String dname, String loc) {

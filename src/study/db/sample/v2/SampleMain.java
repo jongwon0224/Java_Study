@@ -27,6 +27,15 @@ public class SampleMain {
 		}
 		System.out.println("총 " + count + "개 저장됨");
 		
+		
+		Dept changeDept = new Dept(83, "재무팀", "부산");
+		changeDept.setLoc("울산");		
+		
+		int r3 = deptDAO.modifyDept(changeDept);
+		if(r3>0) {
+			System.out.println("수정 잘됐다");
+		}
+		
 		//데이터 저장하기
 //		Dept newD = new Dept();
 //		newD.setDeptno(90);
